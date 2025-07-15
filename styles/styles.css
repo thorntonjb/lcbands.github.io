@@ -1,0 +1,192 @@
+:root
+{
+    /* Old Colors */
+    /* --green: #517C50;
+    --pink: #FAD4D8; */
+
+    --purple: #956CD5;
+    --lavender: #F1DDFE;
+    --lightlavender: #F1E8FD;
+    --brown: #4D3725;
+    --lightbrown: #674A36;
+    --lighterbrown: #89705B;
+    --gray: #C8C8C8;
+    --darkgray: #242424;
+    --white: #FFFFFF;
+    --black: #000000;
+
+}
+
+body
+{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+header
+{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--white);
+    color: var(--black)
+}
+
+h1
+{
+    font-family: 'Bernoru', sans-serif;
+    font-size: 50px;
+}
+
+@font-face
+{
+    font-family: 'Bernoru';
+    src: "url(./itis3135/components/bernoru-blackultraexpanded.otf)";
+}
+
+header a button
+{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+    color: #956CD5;
+}
+
+header button:hover
+{
+    background-color: #F1DDFE;
+}
+
+main
+{
+    background-color: var(--lavender);
+    color: var(--purple);
+    font-size: 25px;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple);
+    margin-top: 30px;
+    background-color: var(--lightlavender);
+    align-items: center;
+}
+
+a:visited
+{
+    color: var(--gray)
+}
+
+a:hover
+{
+    color: var(--darkgray)
+}
+
+a:active
+{
+    color: var(--gray)
+}
+
+img
+{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#intro-centered
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p
+{
+    margin: 4px;
+}
+
+table, th, td
+{
+    border: 3px solid var(--brown);
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 25px;
+    text-align: center;
+    vertical-align: center;
+}
+
+figure
+{
+    margin-left: 0px;
+}
+
+figure table tr:nth-child(odd)
+{
+    background-color: var(--lightbrown);
+}
+
+figure table tr:first-of-type
+{
+    background-color: var(--lighterbrown);
+}
+
+.category
+{
+    background-color: var(--pink);
+}
+
+form input:nth-of-type(-n+3)
+{
+    background-color: var(--pink);
+    border: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
+/* MOBILE RULES */
+/* Remove Initial */
+html, body {
+    all:initial;
+    background-color: var(--lavender);
+}
+
+/* Rule Overrides For Laptops / Small Screens */
+@media screen and ( min-width: 981px ) and ( max-width: 1400px ) {
+    #colorbox {
+        background-color: var(--lavender);
+    }
+}
+/* Rule Overrides For Tablet Devices */
+@media screen and ( min-width: 601px ) and ( max-width: 980px )  {
+    #colorbox {
+        background-color: var(--lavender);
+    }
+}
+/* Rule Overrides For Mobile Devices */
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
+    #colorbox {
+        background-color: var(--lavender);
+    }
+}

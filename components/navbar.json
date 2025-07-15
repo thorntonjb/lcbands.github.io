@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Community",
+    "link": "../community.html"
+  },
+  {
+    "text": "The Program",
+    "link": "./program.html"
+  },
+  {
+    "text": "About",
+    "link": "./about.html"
+  },
+  {
+    "text": "Our Sponsors",
+    "link": "./sponsors.html"
+  },
+  {
+    "text": "Contact Us",
+    "link": "./contact.html"
+  }
+]
