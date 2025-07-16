@@ -12,12 +12,20 @@
     {
       "src": "scripts/*",
       "use": "@vercel/static"
+    },
+    {
+      "src": "images/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "components/*",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "hypertexts/index.html"
+      "dest": "index.html"
     }
   ]
 }
