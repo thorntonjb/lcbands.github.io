@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "hypertexts/index.html",
+      "src": "index.html",
       "use": "@vercel/static"
     },
     {
@@ -17,7 +17,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "hypertexts/index.html"
+      "dest": "index.html"
     }
   ]
 }
